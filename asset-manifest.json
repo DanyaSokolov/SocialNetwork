@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.529e3b8a.css",
-    "main.js": "/static/js/main.7b953942.js",
-    "static/js/311.dcdaa5fc.chunk.js": "/static/js/311.dcdaa5fc.chunk.js",
-    "static/js/787.edd59a96.chunk.js": "/static/js/787.edd59a96.chunk.js",
-    "static/js/896.8a053fce.chunk.js": "/static/js/896.8a053fce.chunk.js",
-    "static/media/bridge.jpg": "/static/media/bridge.cabf5c7d43663954ad7a.jpg",
-    "static/media/kinder.jpg": "/static/media/kinder.8388e645e96b1dc275e1.jpg",
-    "static/media/sky.jpg": "/static/media/sky.04b1df6bb4ee346eabc8.jpg",
-    "static/media/lol.gif": "/static/media/lol.a7086992873468cd784e.gif",
-    "static/media/NewYork.jpg": "/static/media/NewYork.b1e4a26ec408e62aac1a.jpg",
-    "static/media/SpiderMan.png": "/static/media/SpiderMan.75cd7497a4d5d22ed800.png",
-    "static/media/enot.jpg": "/static/media/enot.3df2b0055fbce0a67570.jpg",
-    "static/media/girlLara.jpg": "/static/media/girlLara.229ca34e2865c68cffd0.jpg",
-    "static/media/boyMax.jpg": "/static/media/boyMax.8efce58d7be5e4dd6bc2.jpg",
-    "static/media/cat.jpg": "/static/media/cat.3a8005dfcadc064283bf.jpg",
-    "index.html": "/index.html",
-    "main.529e3b8a.css.map": "/static/css/main.529e3b8a.css.map",
-    "main.7b953942.js.map": "/static/js/main.7b953942.js.map",
-    "311.dcdaa5fc.chunk.js.map": "/static/js/311.dcdaa5fc.chunk.js.map",
-    "787.edd59a96.chunk.js.map": "/static/js/787.edd59a96.chunk.js.map",
-    "896.8a053fce.chunk.js.map": "/static/js/896.8a053fce.chunk.js.map"
+    "main.css": "/SocialNetwork/static/css/main.529e3b8a.css",
+    "main.js": "/SocialNetwork/static/js/main.e065b73c.js",
+    "static/js/311.dcdaa5fc.chunk.js": "/SocialNetwork/static/js/311.dcdaa5fc.chunk.js",
+    "static/js/787.edd59a96.chunk.js": "/SocialNetwork/static/js/787.edd59a96.chunk.js",
+    "static/js/896.8a053fce.chunk.js": "/SocialNetwork/static/js/896.8a053fce.chunk.js",
+    "static/media/bridge.jpg": "/SocialNetwork/static/media/bridge.cabf5c7d43663954ad7a.jpg",
+    "static/media/kinder.jpg": "/SocialNetwork/static/media/kinder.8388e645e96b1dc275e1.jpg",
+    "static/media/sky.jpg": "/SocialNetwork/static/media/sky.04b1df6bb4ee346eabc8.jpg",
+    "static/media/lol.gif": "/SocialNetwork/static/media/lol.a7086992873468cd784e.gif",
+    "static/media/NewYork.jpg": "/SocialNetwork/static/media/NewYork.b1e4a26ec408e62aac1a.jpg",
+    "static/media/SpiderMan.png": "/SocialNetwork/static/media/SpiderMan.75cd7497a4d5d22ed800.png",
+    "static/media/enot.jpg": "/SocialNetwork/static/media/enot.3df2b0055fbce0a67570.jpg",
+    "static/media/girlLara.jpg": "/SocialNetwork/static/media/girlLara.229ca34e2865c68cffd0.jpg",
+    "static/media/boyMax.jpg": "/SocialNetwork/static/media/boyMax.8efce58d7be5e4dd6bc2.jpg",
+    "static/media/cat.jpg": "/SocialNetwork/static/media/cat.3a8005dfcadc064283bf.jpg",
+    "index.html": "/SocialNetwork/index.html",
+    "main.529e3b8a.css.map": "/SocialNetwork/static/css/main.529e3b8a.css.map",
+    "main.e065b73c.js.map": "/SocialNetwork/static/js/main.e065b73c.js.map",
+    "311.dcdaa5fc.chunk.js.map": "/SocialNetwork/static/js/311.dcdaa5fc.chunk.js.map",
+    "787.edd59a96.chunk.js.map": "/SocialNetwork/static/js/787.edd59a96.chunk.js.map",
+    "896.8a053fce.chunk.js.map": "/SocialNetwork/static/js/896.8a053fce.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.529e3b8a.css",
-    "static/js/main.7b953942.js"
+    "static/js/main.e065b73c.js"
   ]
 }
