@@ -1,0 +1,89 @@
+.logo_user {
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    margin-top: 8px;
+    margin-right: 8px;
+    padding: 4px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 50px;
+}
+
+.nav_link_sub_2  {
+    padding-top: 3px;
+    margin-top: 9px;
+    margin-right: 5px;
+    border-radius: 3px;
+    height: 45px;
+    width: 87px;
+    text-decoration: none;
+    transition: .1s;
+    background-color: rgb(51, 136, 182);
+    border: 2px solid rgb(219, 219, 219);
+    cursor: pointer;
+  }
+
+  .nav_link_sub_2:active {
+    background-color: rgb(41, 122, 165);
+  }
+
+  .nav_link_sub2_2 {
+    font-size: 22px;
+    color: #fff;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;   
+    -khtml-user-select: none;    
+    -moz-user-select: none;    
+    -ms-user-select: none;      
+    user-select: none;     
+}
+
+
+.user_main {
+    display: flex;
+    background-color: rgb(244, 244, 244);
+    border: 2px solid rgb(226, 226, 226);
+    height: 65px;
+    margin: 8px;
+    margin-right: 15px;
+    justify-content: space-between;
+    box-shadow: 1px 1px 5px 0.5px #E8E8E8;
+    transition: .1s;
+}
+
+.user_main:hover {
+    background-color: rgb(247, 247, 247);
+}
+
+.user_main2 {
+    display: flex;
+    padding-right: 20px;
+}
+
+.name {
+    color: #292929;
+    font-size: 18px;
+    margin-top: 20px;
+    width: 140px;
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+}
+
+@media (max-width: 500px) {
+   .name {
+       width: 70px;
+   }
+   }
+
+.user_text2 {
+    width: 90%;
+    margin-left: 15px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.a_user {
+    text-decoration: none;
+}
+

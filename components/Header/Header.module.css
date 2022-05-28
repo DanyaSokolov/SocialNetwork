@@ -1,0 +1,240 @@
+.main_head {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(248, 248, 248);
+    border: 2px solid rgb(219, 219, 219);
+    box-shadow: 1px 1px 5px 0.5px #E8E8E8;
+  }
+  
+  .main_head2 {
+    display: flex;
+  }
+  
+  .head {
+    height: 90px;
+  }
+
+  #mainLogo {
+    width: 80px;
+    margin: 6px;
+    margin-left: 20px;
+  }
+
+  /* @media (max-width: 800px) {
+    #mainLogo {
+      width: 0px;
+    }
+  } */
+
+  .input_search_main {
+    height: 45px;
+    outline: none;
+    margin-top: 19px;
+    margin-left: 20px;
+    box-shadow: 3px 3px 5px 0.5px #E8E8E8;
+    border: 2px solid rgb(219, 219, 219);
+    border-radius: 3px;
+    width: 400px;
+    font-size: 17px;
+    transition: .1s;
+    font-family: inherit;
+    padding-left: 6px;
+  }
+
+  @media (max-width: 1150px) {
+    .input_search_main {
+      width: 350px;
+    }
+  }
+
+  @media (max-width: 1050px) {
+    .input_search_main {
+      width: 300px;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .input_search_main {
+      width: 300px;
+    }
+  }
+
+  @media (max-width: 650px) {
+    .input_search_main {
+      width: 200px;
+    }
+  }
+
+  @media (max-width: 550px) {
+    .input_search_main {
+      width: 0px;
+      height: 0px;
+      background-color: rgb(248, 248, 248);
+      border: 0px solid rgb(248, 248, 248);
+      margin-left: 0px;
+      padding-left: 0px;
+      opacity: 0;
+    }
+  }
+  
+  .input_search_main:focus {
+    box-shadow: 1px 1px 5px 0.5px #E8E8E8;
+  }
+
+  #bellHead {
+    width: 34px;
+    margin-top: 28px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  #searchHead {
+    width: 0px;
+    height: 0px;
+    margin-top: 28px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  @media (max-width: 550px) {
+    #searchHead {
+      width: 34px;
+      height: 34px;
+      margin-top: 28px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+  }
+
+  .acc_change {
+    display: flex;
+  }
+
+  .logo_arrow_left {
+    height: 90px;
+    cursor: pointer;
+  }
+  
+  .logo_arrow_left2 {
+    display: flex;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+
+  #arrowDownLogo {
+    width: 30px;
+    padding: 4px;
+    margin-top: 18px;
+    margin-right: 5px;
+  }
+  
+  #mainLogo3 {
+    width: 60px;
+    padding: 4px;
+    background-color: rgb(243, 243, 243);
+    border: 2px solid rgb(226, 226, 226);
+    border-radius: 50px;
+  }
+
+  .nav_link_sub_1  {
+    border-radius: 3px;
+    transition: .1s;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    padding-left: 6px;
+    padding-top: 7px;
+    padding-right: 6px;
+    margin-right: 10px;
+    background-color: rgb(248, 248, 248);
+  }
+
+  .nav_link_sub2_1 {
+      font-size: 23px;
+      color: rgb(51, 136, 182);
+  }
+
+  @media (max-width: 800px) {
+    .nav_link_sub2_1 {
+      font-size: 0px;
+    }
+    .nav_link_sub_1 {
+      margin-right: 0px;
+    }
+  }
+
+  .loading_main {
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .loading {
+    height: 35px;
+    margin-top: 28px;
+    margin-right: 20px;
+    animation: spin 1.5s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  
+
+  .profile_data {
+    display: flex;
+  }
+
+  .nav_link_sub_2  {
+    padding-top: 3px;
+    margin-top: 23px;
+    margin-right: 20px;
+    border-radius: 3px;
+    height: 45px;
+    width: 90px;
+    text-decoration: none;
+    transition: .1s;
+    background-color: rgb(51, 136, 182);
+    border: 2px solid rgb(219, 219, 219);
+    cursor: pointer;
+  }
+
+ .nav_link_sub_2:active {
+    background-color: rgb(41, 122, 165);
+  }
+
+  .nav_link_sub2_2 {
+    font-size: 22px;
+    color: #fff;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;   
+    -khtml-user-select: none;    
+    -moz-user-select: none;    
+    -ms-user-select: none;      
+    user-select: none;     
+}
+
+@media (max-width: 800px) {
+  .nav_link_sub_2 {
+    width: 0px;
+    height: 0px;
+    border: none;
+    padding: 0px solid rgb(248, 248, 248);
+    background-color: rgb(248, 248, 248);
+  }
+  .nav_link_sub2_2 {
+    font-size: 0px;
+    color: #fff;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;   
+    -khtml-user-select: none;    
+    -moz-user-select: none;    
+    -ms-user-select: none;      
+    user-select: none;     
+}
+}
+
+
+ 
+
+ 

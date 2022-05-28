@@ -1,0 +1,83 @@
+.logo_user {
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    margin-top: 8px;
+    margin-right: 8px;
+    padding: 4px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 50px;
+}
+
+.logo_delete {
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 14px;
+    margin-right: 8px;
+    padding: 4px;
+    border-radius: 50px;
+}
+
+.user_main {
+    display: flex;
+    background-color: rgb(244, 244, 244);
+    border: 2px solid rgb(226, 226, 226);
+    height: 65px;
+    margin: 8px;
+    margin-right: 15px;
+    justify-content: space-between;
+    box-shadow: 1px 1px 5px 0.5px #E8E8E8;
+    transition: .1s;
+}
+
+.user_main:hover {
+    background-color: rgb(247, 247, 247);
+}
+
+.user_main2 {
+    display: flex;
+}
+
+.name {
+    color: #292929;
+    font-size: 18px;
+    margin-top: 20px;
+    width: 140px;
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+}
+
+@media (max-width: 500px) {
+   .name {
+       width: 70px;
+   }
+   }
+
+
+   @media (max-width: 400px) {
+    .name {
+        width: 50px;
+    }
+    }
+
+.user_text2 {
+    width: 90%;
+    margin-left: 15px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.a_user {
+    text-decoration: none;
+}
+
+.user_main2 {
+    padding-right: 20px;
+  }
+
+  .user_main2_nav {
+    cursor: pointer;
+  }
+

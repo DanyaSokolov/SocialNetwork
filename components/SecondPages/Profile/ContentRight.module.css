@@ -1,0 +1,39 @@
+.main_right {
+  background-color: rgb(252, 252, 252);
+  margin-left: 10px;
+  width: 100%;
+  box-shadow: 3px 3px 5px 0.5px #E8E8E8;
+}
+
+.block_name {
+  background-color: rgb(247, 247, 247);
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 10px;
+  font-size: 26px;
+  margin-bottom: 15px;
+  color: rgb(51, 136, 182);
+  background-color: rgb(250, 250, 250);
+  border: 2px solid rgb(219, 219, 219);
+  padding: 4px;
+  box-shadow: 3px 3px 5px 0.5px #E8E8E8;
+}
+
+.loading_main {
+  display: flex;
+  justify-content: center;
+}
+
+.loading {
+  height: 50px;
+  margin-top: 76px;
+  animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+ 

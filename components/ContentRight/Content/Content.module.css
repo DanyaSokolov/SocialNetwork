@@ -1,0 +1,102 @@
+.logo_user {
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 8px;
+    padding: 4px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 50px;
+}
+
+.user_main {
+    display: flex;
+    text-decoration: none;
+}
+
+.name {
+    color: #292929;
+    font-size: 18px;
+    margin-top: 26px;
+}
+
+.user_text2 {
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.user_img {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.user_img2 {
+    width: 40vw;
+    border: 2px solid rgb(226, 226, 226);
+    box-shadow: 1px 1px 5px 0.5px #E8E8E8;
+}
+
+.feedback_name {
+    margin-top: 4px;
+}
+
+.feedback2 {
+    display: flex;
+    border: 2px solid rgb(226, 226, 226);
+    padding: 4px;
+    cursor: pointer;
+    border-radius: 1px;
+    margin-left: 10px;
+    transition: .1s;
+    color: #292929;
+}
+
+.feedback2:hover {
+    background-color: rgb(247, 247, 247);
+}
+
+.imgToDo {
+    width: 30px;
+    margin-right: 5px;
+}
+
+@media (max-width: 1000px) {
+    .user_img2 {
+        width: 400px;
+    }
+  }
+
+  @media (max-width: 650px) {
+   .feedback2 {
+       font-size: 0px;
+   }
+   .imgToDo {
+       margin-right: 0px;
+   }
+   .user_img2 {
+    width: 350px;
+}
+  }
+
+  @media (max-width: 500px) {
+    .user_img2 {
+     width: 300px;
+ }
+   }
+  
+   @media (max-width: 400px) {
+    .user_img2 {
+     width: 250px;
+ }
+   }
+
+.feedback {
+    margin-left: 5px;
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+
+

@@ -1,0 +1,58 @@
+.logo_user {
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-right: 8px;
+    padding: 4px;
+    background-color: rgb(241, 240, 240);
+    border-radius: 50px;
+}
+
+.block_main2 {
+    margin-bottom: 8px;
+}
+
+.content_text {
+    display: flex;
+}
+
+/* .text {
+    border: 2px solid rgb(219, 219, 219);
+    border-radius: 8px;
+    word-break: break-word;
+    padding-top: 10.5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 12px;
+    margin-bottom: 3.5px;
+    margin-right: 10px;
+} */
+
+.text {
+    border: 2px solid rgb(219, 219, 219);
+    border-radius: 5px;
+    word-break: break-word;
+    margin: 11px 0px;
+    margin-right: 8px;
+    padding: 7px 8px;
+    font-size: 17px;
+}
+
+@media (max-width: 800px) {
+    .logo_user {
+        width: 32px;
+        height: 32px;
+        margin-left: 5px;
+        margin-top: 5px;
+        margin-right: 3px;
+        padding: 4px;
+        background-color: rgb(241, 240, 240);
+        border-radius: 50px;
+    }
+    .text {
+        font-size: 15px;
+    }
+  }
+  
